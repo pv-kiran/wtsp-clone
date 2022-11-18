@@ -173,6 +173,36 @@ body {
     width: 50%;
     background-color:  rgb(231,240,228);
 }
+
+.leftToUp {
+    background-color: aliceblue;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translate(60px , -50px);
+    animation: leftToUp 3s infinite;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes leftToUp {
+    0% {
+      transform: translate(-120px , 120px); 
+      opacity: 1; 
+    }
+    70% {
+      transform: translate(60px , 120px);
+      opacity: 0.75;
+    }
+}
+
+
+
+
+
 .feuture-paragraph {
     text-align: center;
 }
