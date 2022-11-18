@@ -23,6 +23,7 @@ body {
 
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .nav-list {
@@ -185,6 +186,7 @@ body {
     animation: leftToUp 3s infinite;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
+    z-index: -1;
 
 }
 
